@@ -1,9 +1,12 @@
 {
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "bun index.ts"
   },
   "dependencies": {
-    "express": "^5.1.0"
+    "@types/node": "^22.15.21",
+    "express": "^5.1.0",
+    "typescript": "^5.8.3"
   },
   "devDependencies": {
     "@types/express": "^5.0.2",
